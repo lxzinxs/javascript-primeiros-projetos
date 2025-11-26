@@ -1,0 +1,6 @@
+numero = prompt("Digite seu numero");
+if (numero % 2) {
+    alert("Seu numero é impar")
+} else {
+    alert("Seu numero e par")
+}
