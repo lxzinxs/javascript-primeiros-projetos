@@ -1,1 +1,7 @@
+let valor1 =  parseInt(prompt("Digite o primeiro número"));
+let valor2 = parseInt(prompt("Digite o segundo número"));
+let valor = 0
 
+resultado = valor1 - valor2
+
+console.log(`A diferença entre o ${valor1} e o ${valor2} é igual a ${resultado}`);
