@@ -1,0 +1,9 @@
+function calcularImc(altura, peso) {
+    return peso / (altura * altura);
+}
+
+let altura = parseFloat(prompt('Qual é a sua altura? (exemplo: 1.75)' ));
+let peso = parseInt(prompt('Qual ´o seu peso?'));
+
+let imc = calcularImc(altura, peso);
+console.log(imc);
