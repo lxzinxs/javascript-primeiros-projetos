@@ -1,0 +1,18 @@
+let numero = prompt('Qual é o seu numero?');
+let fatorial = 1;
+let resultado;
+
+function calcularFatorial(numero) {
+    if (numero == 0 || numero == 1) {
+        return 1;
+    }
+    
+    for (let n = 2; n <= numero; n++) {
+        fatorial *= n;
+    }
+
+    return fatorial;
+}
+
+resultado = calcularFatorial(numero);
+console.log(`O fatorial do numero ${numero} é igual a ${resultado}`);
