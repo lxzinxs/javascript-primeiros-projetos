@@ -1,0 +1,13 @@
+let saldoDolar = prompt("Qual o seu valor em dolar?");
+let dolar = 5.42;
+let real;
+
+
+function converterValor() {
+    real = saldoDolar * dolar;
+    return real;
+}
+
+converterValor();
+
+console.log(`o seu valor em reais é ${real}`);
